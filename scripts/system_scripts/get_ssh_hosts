@@ -1,0 +1,10 @@
+#!/bin/bash
+
+HOSTS=()
+
+while read line; do
+    ar=($line)
+    if [ ${ar[0]} == "Host" ]; then
+        echo ${ar[1]}
+    fi
+done < ~/.ssh/config

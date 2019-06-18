@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DMENU=$(~/scripts/system_scripts/get_ssh_hosts | dmenu)
+if [ $? == 0 ]; then
+    termite -e "ssh $DMENU" & disown
+fi

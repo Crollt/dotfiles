@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=Personal
+Enabled=true
+Parent=47cfa10a136cbfc5eccd2e897f626efff9940064
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=51ddafbcf77e6421983721315159b55dc9119112
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=croll.thomas@gmail.com
+Aliases=
+Name=Thomas Croll
+Organization=
+ReplyTo=
+SignatureUid=none

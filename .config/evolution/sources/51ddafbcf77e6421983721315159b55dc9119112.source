@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=Personal
+Enabled=true
+Parent=47cfa10a136cbfc5eccd2e897f626efff9940064
+
+[Authentication]
+Host=smtp.gmail.com
+Method=Google
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=croll.thomas@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Mail Transport]
+BackendName=smtp
